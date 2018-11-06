@@ -1,2 +1,14 @@
 @import "reset.css";
-@import "layout.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header,
+.panel,
+.timestamp {
+  font-family: Arial, sans-serif;
+}
+h3 {
+  font-family: Georgia, serif;
+}
